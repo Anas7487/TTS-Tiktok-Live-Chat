@@ -8,7 +8,7 @@ let likeCount = 0;
 let diamondsCount = 0;
 
 async function textToSpeech(text) {
-    const apiKey = 'AIzaSyC-0merOX8RzWRHkAMWWfXibEUDb89o5lg'; // Replace with your API key
+    const apiKey = 'Enter Your Google Api Key'; //
     const url = `https://texttospeech.googleapis.com/v1/text:synthesize?key=${apiKey}`;
   
     const data = {
