@@ -1,4 +1,4 @@
-แค่เพิ่ม speech systhesis ให้กับ comment ใน TikTok Live แล้วลบสิ่งที่ไม่ต้องการออก
+แค่เพิ่ม Google Cloud Text-to-Speech ให้กับ comment ใน TikTok Live แล้วลบสิ่งที่ไม่ต้องการออก
 สำหรับเอาไปใช้ในไลฟ์สดมนการเล่นเกมแล้วไม่ว่างมาอ่านคอมเมนต์
 
 # Usage - วิธีใช้
