@@ -8,8 +8,8 @@ let likeCount = 0;
 let diamondsCount = 0;
 
 async function textToSpeech(text) {
-    const apiKey = 'Enter Your Google Api Key'; //
-    const url = `https://texttospeech.googleapis.com/v1/text:synthesize?key=${apiKey}`;
+    const apiKey = document.getElementById('apiKey');
+    const url = `https://texttospeech.googleapis.com/v1/text:synthesize?key=${apiKey.value}`;
   
     const data = {
       input: { text: text },
@@ -38,9 +38,16 @@ $(document).ready(() => {
     $('#connectButton').click(connect);
     $('#uniqueIdInput').on('keyup', function (e) {
         if (e.key === 'Enter') {
+            console.log("enter with username")
             connect();
         }
     });
+    $('#apiKey').on('keyup', function (e) {
+        if (e.key === 'Enter') {
+            console.log("enter with api key")
+            connect();
+        }
+    })
 
     if (window.settings.username) connect();
 })
