@@ -1,14 +1,13 @@
 // This will use the demo backend if you open index.html locally via file://, otherwise your server will be used
 let backendUrl = location.protocol === 'file:' ? "https://tiktok-chat-reader.zerody.one/" : undefined;
 let connection = new TikTokIOConnection(backendUrl);
-require("dotenv").config();
 // Counter
 let viewerCount = 0;
 let likeCount = 0;
 let diamondsCount = 0;
 
 async function textToSpeech(text) {
-    const apiKey = (process.env.TOKEN);
+    const apiKey = document.getElementById("apiKey");
     const url = `https://texttospeech.googleapis.com/v1/text:synthesize?key=${apiKey.value}`;
   
     const data = {
