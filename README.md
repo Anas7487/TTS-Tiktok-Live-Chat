@@ -10,3 +10,6 @@
 
 # Credits - ต้นฉบับ
 ขอบคุณ Source code จากคนนี้ >> https://github.com/zerodytrash/TikTok-Chat-Reader
+
+# DEMO
+https://github.com/user-attachments/assets/ba855804-feea-41bd-a9c2-14ea977089a3
