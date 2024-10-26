@@ -3,7 +3,7 @@
 
 # Usage - วิธีใช้
 1. ติดตั้ง [Node.js](https://nodejs.org/) บนเครื่องของคุณ
-2. ดาวน์โหลด [ไฟล์ Zip นี้](https://github.com/Anas7487/TTS-Tiktok-Live-Chat.git)แล้วทำการแตกไฟล์
+2. ดาวน์โหลด [ไฟล์ Zip](https://github.com/Anas7487/TTS-Tiktok-Live-Chat.git) นี้แล้วทำการแตกไฟล์
 6. เข้าไปในโฟลเดอร์ เปิด Terminal พิมพ์ `npm i` เพื่อนติดตั้งแพ็กเกจที่จำเป็น
 7. และพิมพ์ `node server.js` เพื่อเริ่มการทำงาน
 8. ในช่องที่1 ให้พิพม์ `username` ของ Tiktok ที่กำไลฟ์สดอยู่
