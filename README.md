@@ -8,7 +8,7 @@
 4. และพิมพ์ `node server.js` เพื่อเริ่มการทำงาน
 5. ในช่องที่1 ให้พิพม์ `username` ของ Tiktok ที่กำไลฟ์สดอยู่
 
-[Username](https://github.com/user-attachments/assets/8edde539-3712-465a-8479-7b0dabc04ea6)
+![Username](https://github.com/user-attachments/assets/8edde539-3712-465a-8479-7b0dabc04ea6)
 
 6. ในช่องที่2 ให้ใส่ [Google Text To Speech Api](https://cloud.google.com/text-to-speech?hl=en) ของคุณ เพื่อให้มีเสียงพูดเมื่อมีคนคอมเมนต์
 
